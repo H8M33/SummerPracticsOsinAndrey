@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="ExtraText">
+
+    <item
+        android:id="@+id/navigation_1"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="First" />
+
+    <item
+        android:id="@+id/navigation_2"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Second" />
+
+    <item
+        android:id="@+id/navigation_3"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:title="Third" />
+    <item
+        android:id="@+id/navigation_4"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Fourth" />
+    <item
+        android:id="@+id/navigation_5"
+        android:icon="@android:drawable/stat_notify_missed_call"
+        android:title="Fifth" />
+
+</menu>

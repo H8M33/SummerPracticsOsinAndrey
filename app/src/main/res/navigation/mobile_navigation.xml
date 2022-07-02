@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_1">
+
+    <fragment
+        android:id="@+id/navigation_1"
+        android:name="com.example.test1.Fragment1"
+        android:label="First"
+        tools:layout="@layout/fragment1" />
+
+    <fragment
+        android:id="@+id/navigation_2"
+        android:name="com.example.test1.Fragment2"
+        android:label="Second"
+        tools:layout="@layout/fragment2" />
+
+    <fragment
+        android:id="@+id/navigation_3"
+        android:name="com.example.test1.Fragment3"
+        android:label="Third"
+        tools:layout="@layout/fragment3" />
+    <fragment
+        android:id="@+id/navigation_4"
+        android:name="com.example.test1.Fragment4"
+        android:label="Fourth"
+        tools:layout="@layout/fragment4" />
+    <fragment
+        android:id="@+id/navigation_5"
+        android:name="com.example.test1.Fragment5"
+        android:label="Fifth"
+        tools:layout="@layout/fragment5" />
+</navigation>
